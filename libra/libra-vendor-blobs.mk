@@ -46,13 +46,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/libra/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/xiaomi/libra/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/xiaomi/libra/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/xiaomi/libra/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/xiaomi/libra/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/xiaomi/libra/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    vendor/xiaomi/libra/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/xiaomi/libra/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/xiaomi/libra/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/xiaomi/libra/proprietary/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:system/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
+    vendor/xiaomi/libra/proprietary/etc/acdbdata/Forte/Forte_General_cal.acdb:system/etc/acdbdata/Forte/Forte_General_cal.acdb \
+    vendor/xiaomi/libra/proprietary/etc/acdbdata/Forte/Forte_Global_cal.acdb:system/etc/acdbdata/Forte/Forte_Global_cal.acdb \
+    vendor/xiaomi/libra/proprietary/etc/acdbdata/Forte/Forte_Handset_cal.acdb:system/etc/acdbdata/Forte/Forte_Handset_cal.acdb \
+    vendor/xiaomi/libra/proprietary/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb:system/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb \
+    vendor/xiaomi/libra/proprietary/etc/acdbdata/Forte/Forte_Headset_cal.acdb:system/etc/acdbdata/Forte/Forte_Headset_cal.acdb \
+    vendor/xiaomi/libra/proprietary/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:system/etc/acdbdata/Forte/Forte_Speaker_cal.acdb \
     vendor/xiaomi/libra/proprietary/etc/cne/profile.txt:system/etc/cne/profile.txt \
     vendor/xiaomi/libra/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/xiaomi/libra/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
