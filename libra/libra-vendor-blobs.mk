@@ -133,7 +133,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib/hw/activity_recognition.libra.so:system/vendor/lib/hw/activity_recognition.libra.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/hw/gatekeeper.msm8992.so:system/vendor/lib/hw/gatekeeper.msm8992.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/hw/keystore.msm8992.so:system/vendor/lib/hw/keystore.msm8992.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/hw/sensors.libra.so:system/vendor/lib/hw/sensors.libra.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib/hw/sensors.lsm6db0.so:system/vendor/lib/hw/sensors.lsm6db0.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/hw/sound_trigger.primary.msm8992.so:system/vendor/lib/hw/sound_trigger.primary.msm8992.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/hw/tof.vl6180.so:system/vendor/lib/hw/tof.vl6180.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
@@ -363,7 +363,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/hw/gatekeeper.msm8992.so:system/vendor/lib64/hw/gatekeeper.msm8992.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/hw/keystore.msm8992.so:system/vendor/lib64/hw/keystore.msm8992.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/hw/sensors.libra.so:system/vendor/lib64/hw/sensors.libra.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib64/hw/sensors.lsm6db0.so:system/vendor/lib64/hw/sensors.lsm6db0.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
