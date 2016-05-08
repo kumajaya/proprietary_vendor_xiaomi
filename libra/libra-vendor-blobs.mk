@@ -58,7 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/etc/qcril.db:system/etc/qcril.db \
     vendor/xiaomi/libra/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/xiaomi/libra/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
-    vendor/xiaomi/libra/proprietary/etc/thermal-engine-8992.conf:system/etc/thermal-engine-8992.conf \
     vendor/xiaomi/libra/proprietary/lib/hw/consumerir.msm8992.so:system/lib/hw/consumerir.msm8992.so \
     vendor/xiaomi/libra/proprietary/lib/hw/gps.msm8992.so:system/lib/hw/gps.msm8992.so \
     vendor/xiaomi/libra/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
