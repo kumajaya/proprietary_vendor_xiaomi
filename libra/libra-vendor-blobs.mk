@@ -615,4 +615,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so
+    vendor/xiaomi/libra/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+    vendor/xiaomi/libra/proprietary/bin/fingerprintd:system/bin/fingerprintd \
+    vendor/xiaomi/libra/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
+    vendor/xiaomi/libra/proprietary/lib/hw/fingerprint.libra.so:system/lib/hw/fingerprint.libra.so \
+    vendor/xiaomi/libra/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
+    vendor/xiaomi/libra/proprietary/lib64/hw/fingerprint.libra.so:system/lib64/hw/fingerprint.libra.so
