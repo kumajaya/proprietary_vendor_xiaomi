@@ -623,9 +623,4 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/xiaomi/libra/proprietary/lib/hw/fingerprint.libra.so:system/lib/hw/fingerprint.libra.so \
     vendor/xiaomi/libra/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
-    vendor/xiaomi/libra/proprietary/lib64/hw/fingerprint.libra.so:system/lib64/hw/fingerprint.libra.so \
-    vendor/xiaomi/libra/proprietary/vendor/firmware/fpctzappfingerprint.b00:system/vendor/firmware/fpctzappfingerprint.b00 \
-    vendor/xiaomi/libra/proprietary/vendor/firmware/fpctzappfingerprint.b01:system/vendor/firmware/fpctzappfingerprint.b01 \
-    vendor/xiaomi/libra/proprietary/vendor/firmware/fpctzappfingerprint.b02:system/vendor/firmware/fpctzappfingerprint.b02 \
-    vendor/xiaomi/libra/proprietary/vendor/firmware/fpctzappfingerprint.b03:system/vendor/firmware/fpctzappfingerprint.b03 \
-    vendor/xiaomi/libra/proprietary/vendor/firmware/fpctzappfingerprint.mdt:system/vendor/firmware/fpctzappfingerprint.mdt
+    vendor/xiaomi/libra/proprietary/lib64/hw/fingerprint.libra.so:system/lib64/hw/fingerprint.libra.so
