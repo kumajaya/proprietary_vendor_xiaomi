@@ -35,13 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/xiaomi/libra/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/libra/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
-    vendor/xiaomi/libra/proprietary/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:system/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
-    vendor/xiaomi/libra/proprietary/etc/acdbdata/Forte/Forte_General_cal.acdb:system/etc/acdbdata/Forte/Forte_General_cal.acdb \
-    vendor/xiaomi/libra/proprietary/etc/acdbdata/Forte/Forte_Global_cal.acdb:system/etc/acdbdata/Forte/Forte_Global_cal.acdb \
-    vendor/xiaomi/libra/proprietary/etc/acdbdata/Forte/Forte_Handset_cal.acdb:system/etc/acdbdata/Forte/Forte_Handset_cal.acdb \
-    vendor/xiaomi/libra/proprietary/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb:system/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb \
-    vendor/xiaomi/libra/proprietary/etc/acdbdata/Forte/Forte_Headset_cal.acdb:system/etc/acdbdata/Forte/Forte_Headset_cal.acdb \
-    vendor/xiaomi/libra/proprietary/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:system/etc/acdbdata/Forte/Forte_Speaker_cal.acdb \
     vendor/xiaomi/libra/proprietary/etc/cne/profile.txt:system/etc/cne/profile.txt \
     vendor/xiaomi/libra/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/xiaomi/libra/proprietary/etc/izat.conf:system/etc/izat.conf \
@@ -67,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/xiaomi/libra/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/xiaomi/libra/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/xiaomi/libra/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
     vendor/xiaomi/libra/proprietary/lib64/hw/consumerir.msm8992.so:system/lib64/hw/consumerir.msm8992.so \
     vendor/xiaomi/libra/proprietary/lib64/hw/gps.msm8992.so:system/lib64/hw/gps.msm8992.so \
     vendor/xiaomi/libra/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
@@ -139,17 +131,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libadpcmdec.so:system/vendor/lib/libadpcmdec.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
@@ -235,15 +220,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
@@ -281,6 +259,24 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libvss_nv_iface.so:system/vendor/lib64/libvss_nv_iface.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
+    vendor/xiaomi/libra/proprietary/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:system/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
+    vendor/xiaomi/libra/proprietary/etc/acdbdata/Forte/Forte_General_cal.acdb:system/etc/acdbdata/Forte/Forte_General_cal.acdb \
+    vendor/xiaomi/libra/proprietary/etc/acdbdata/Forte/Forte_Global_cal.acdb:system/etc/acdbdata/Forte/Forte_Global_cal.acdb \
+    vendor/xiaomi/libra/proprietary/etc/acdbdata/Forte/Forte_Handset_cal.acdb:system/etc/acdbdata/Forte/Forte_Handset_cal.acdb \
+    vendor/xiaomi/libra/proprietary/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb:system/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb \
+    vendor/xiaomi/libra/proprietary/etc/acdbdata/Forte/Forte_Headset_cal.acdb:system/etc/acdbdata/Forte/Forte_Headset_cal.acdb \
+    vendor/xiaomi/libra/proprietary/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:system/etc/acdbdata/Forte/Forte_Speaker_cal.acdb \
+    vendor/xiaomi/libra/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/xiaomi/libra/proprietary/lib/hw/camera.vendor.msm8992.so:system/lib/hw/camera.vendor.msm8992.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
