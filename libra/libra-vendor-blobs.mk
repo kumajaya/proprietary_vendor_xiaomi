@@ -600,7 +600,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/xiaomi/libra/proprietary/bin/energy-awareness:system/bin/energy-awareness \
+    vendor/xiaomi/libra/proprietary/bin/iop:system/bin/iop \
     vendor/xiaomi/libra/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
+    vendor/xiaomi/libra/proprietary/lib/libqti-iop.so:system/lib/libqti-iop.so \
+    vendor/xiaomi/libra/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/xiaomi/libra/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/xiaomi/libra/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
     vendor/xiaomi/libra/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
