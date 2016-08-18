@@ -612,6 +612,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 
 PRODUCT_PACKAGES += \
+    libqminvapi \
     libtime_genoff \
     atfwd \
     datastatusnotification \
